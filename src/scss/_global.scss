@@ -1,0 +1,25 @@
+//при создании больших сайтов важно прибивать футер к низу страницы и задавать глобальные свойства для основной структуры страницы
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main {
+    flex: 1 0 auto;
+}
+.footer {
+    flex: 0 0 auto;
+}
+
+
+
+
+
+
